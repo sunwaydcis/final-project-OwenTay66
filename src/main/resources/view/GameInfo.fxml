@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="504.0" prefWidth="787.0" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="controller.GameInfoController">
+    <children>
+        <Label fx:id="infoLabel" style="-fx-font-size: 24px;" text="Game Information" />
+        <TextArea prefHeight="379.0" prefWidth="732.0" text="Game mode:&#10;Objective: Match two cards to score points.&#10;Card Types:&#10;Normal cards: 1 point for a match.&#10;Joker cards: 1 point for flipping, 2 points for a match.&#10;Turns: Players alternate flipping two cards.&#10;Time Limit: Each player has 45 seconds to make a move.&#10;Winner: The player with the most points when all cards are matched wins. If points tie, health or time decides the winner.&#10;&#10;Training Mode:&#10;Players: Player 1 (human) and Player 2 (AI).&#10;Cards: Matching cards earn 1 point; Joker cards earn 1 point immediately, or 2 points if matched.&#10;Gameplay: Players flip two cards per turn. If they match, they’re removed and points are awarded. Non-matching cards are flipped back.&#10;Timers: Each player has 80 seconds to make a move.&#10;End: The game ends when all cards are matched. The player with the most points or time wins.&#10;AI: The AI randomly flips cards to find matches.&#10;Back to Home: The game can be exited to return to the home screen." />
+    </children>
+</VBox>
